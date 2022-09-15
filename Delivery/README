@@ -1,0 +1,9 @@
+Compile and run the program in the usual way, i.e., using "mvn compile" and "mvn exec:java".
+
+Then run the following sample commands to test the system:
+
+  curl -X POST localhost:8080/users -H 'Content-type:application/json'  -d '{"name": "Mukund", "age": 13, "countryOfRecidence": "India"}'
+
+  curl  localhost:8080/users 
+
+  curl  localhost:8080/users/Mukund
